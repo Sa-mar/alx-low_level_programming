@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(void)
-	/*Print text using printf*/
+	/*Print text using puts*/
 {
-   printf("Programming is like building a multilingual puzzle\n");
+   char printing[] ="Programming is like building a multilingual puzzle";
+   puts(printing);
    return 0;
 }
