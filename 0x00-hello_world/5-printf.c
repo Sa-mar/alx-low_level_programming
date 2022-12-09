@@ -2,7 +2,7 @@
 
 /**
  *
- * main - acceptwithout parameter
+ * main - Entry point
  *
  * Description: prints text
  *
