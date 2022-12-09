@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-/*
- * main - function can be called witout any parameter
+/**
+ * main - Entry point
  *
- * Purpose - Print Text using puts
+ * Description: Print a Text
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 	/*Print text using puts*/
