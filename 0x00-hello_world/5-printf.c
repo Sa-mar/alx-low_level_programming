@@ -2,6 +2,8 @@
 
 /**
  *
+ * main - acceptwithout parameter
+ *
  * Description: prints text
  *
  * Return:O as success
