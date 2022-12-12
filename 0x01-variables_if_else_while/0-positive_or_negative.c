@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - determine whether number is + or -
+ * main - determine whether number is positive or negative
  *
- * Description -  to print whether the number stored
+ * Description -  determine  whether the number stored
  * in the variable n is positive or negative
  *
  * Return - Always 0 (Success)
