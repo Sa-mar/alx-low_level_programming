@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - determine whether number is + or -
  *
  * Description -  to print whether the number stored
  * in the variable n is positive or negative
