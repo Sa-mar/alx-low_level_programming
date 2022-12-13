@@ -11,8 +11,8 @@
  */
 int main(void)
 {
-	int i;
-	for(i = 97; i < 123; i++)
+	char i;
+	for(i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
