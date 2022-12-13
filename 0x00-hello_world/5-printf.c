@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * Description: prints text
  *
- * Return:O as success
+ * Return: Always O (Success)
  */
 int main(void)
 {
