@@ -5,6 +5,7 @@
 
 /**
  * _islower - Entry Point
+ * @c: ASCII values of lower case
  *
  * Description: checks if alphabets are in lower case
  *
