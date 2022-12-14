@@ -13,11 +13,12 @@
 int main(void)
 {
 	char putchr = "_putchar";
+	int i;
 	
 	for (i = 0; i < 8; i++);
 	{
 		_putchar(putchr);
 	}
-	_putchar("\n);
+	_putchar("\n");
 	return (0);
 }
