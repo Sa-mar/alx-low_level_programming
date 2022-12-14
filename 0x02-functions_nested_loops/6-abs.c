@@ -5,7 +5,7 @@
 
 /**
  * _abs - Entry Point
- * @n: The integer
+ * @i: The integer
  *
  * Description: computes absolute value
  *
