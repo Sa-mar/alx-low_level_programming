@@ -4,12 +4,12 @@
 #include "main.h"
 
 /**
- * isdigit - ENtry Point
+ * _isdigit - Entry Point
  * @c: checks for digit
  *
  * Description: checks for digits 0 to 9
  *
- * Return: Always i (Success)
+ * Return: Always 1 (Success)
  */
 int _isdigit(int c)
 {
