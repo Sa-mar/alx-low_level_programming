@@ -21,5 +21,5 @@ void print_line(int n)
 		_putchar('_');
 		x = x + 1;
 	}
-	-Putchar('\n');
+	_putchar('\n');
 }
