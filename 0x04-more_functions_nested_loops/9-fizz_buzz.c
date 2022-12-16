@@ -18,34 +18,34 @@ int main(void)
 	{
 		if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			putchar('Fizz ');
 		}
 		else
 		{
 			if (i % 5 == 0)
 			{
-				printf("Buzz ");
+				putchar('Buzz ');
 			}
 			else
 			{
 				if (i % 3 == 0 && i % 5 == 0)
 				{
-					printf("FizzBuzz ");
+					putchar('FizzBuzz ');
 				}
 				else
 				{
 					if (i != 100)
 					{
-						printf(" ");
+						putchar(' ');
 					}
 					else
 					{
-						printf("%d", i);
+						putchar('%d', i);
 					}
 				}
 			}
 		}
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
