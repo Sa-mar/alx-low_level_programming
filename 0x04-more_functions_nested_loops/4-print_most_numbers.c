@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * print_most_number - Entry Point
+ * print_most_numbers - Entry Point
  *
  * Description: Print numbers and skip 2 and 4
  *
