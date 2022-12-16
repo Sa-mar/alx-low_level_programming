@@ -11,7 +11,7 @@
  *
  * Return: void
  */
-void print_trinagle(int size)
+void print_triangle(int size)
 {
 	int x;
 	int y;
