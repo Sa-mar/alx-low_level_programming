@@ -1,0 +1,10 @@
+int _putchar(char c);
+void reset_to_98(int *n);
+void swap_int(int *x, int *y);
+int _strlen(char *x);
+void _puts(char *str);
+void print_rev(char *x);
+void rev_string(char *x);
+void puts2(char *str);
+void print_array(int *x, int n);
+char *_strcpy(char *dest, char *src);
