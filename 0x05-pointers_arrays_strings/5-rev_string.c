@@ -24,6 +24,6 @@ void rev_string(char *x)
 	b = 0;
 	for (a = c - 1; a >= 0; --a)
 	{
-		result[++b] = x[a];
+		result[b] = x[a];
 	}
 }
