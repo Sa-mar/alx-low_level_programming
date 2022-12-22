@@ -18,5 +18,6 @@ int _strlen(char *x)
 	{
 		y++;
 	}
-/*https://www.programmingsimplified.com/c-program-find-string-length*/
+	/*https://www.programmingsimplified.com/c-program-find-string-length*/
+	return (y);
 }
