@@ -17,7 +17,7 @@ int main(void)
 	printf("The size of an int is: %lu.\n", (unsigned long)sizeof(a));
 	printf("The size of a double is: %lu.\n", (unsigned long)sizeof(b));
 	printf("the size of a char is: %lu.\n", (unsigned long)sizeof(c));
-	printf("The size of a float is: %lu.\", (unsigned long)sizeof(d));
+	printf("the size of a float is: %lu.\n", (unsigned long)sizeof(d));
 
 	return (0);
 }
