@@ -9,15 +9,17 @@
  */
 int main(void)
 {
-	int a;
-	double b;
-	char c;
-	float d;
+	char a;
+	int b;
+	long c;
+	long long d;
+	float e;
 
-	printf("The size of an int is: %lu.\n", (unsigned long)sizeof(a));
-	printf("The size of a double is: %lu.\n", (unsigned long)sizeof(b));
-	printf("the size of a char is: %lu.\n", (unsigned long)sizeof(c));
-	printf("the size of a float is: %lu.\n", (unsigned long)sizeof(d));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(e));
 
 	return (0);
 }
