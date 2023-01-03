@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * _strbrk - Entry Point
+ * _strpbrk - Entry Point
  * @s: string
  * @accept: to match
  *
