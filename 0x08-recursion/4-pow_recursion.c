@@ -10,7 +10,7 @@
  *
  * Description: A function that computes power of a number
  *
- * Return : the value or -1 if power < 0
+ * Return: the value or -1 if power < 0
  */
 int _pow_recursion(int x, int y)
 {
