@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * _pow_recursion - The power rec function
+ * _pow_recursion - The function
  * @x: the value
  * @y: the power value
  *
