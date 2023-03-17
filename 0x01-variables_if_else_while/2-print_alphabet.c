@@ -11,11 +11,11 @@
  */
 int main(void)
 {
-	int a = 97;
+	char a;
 
-	while (a >= 97 && a <= 122)
+	while (a >= 'a' && a <= 'z')
 	{
-		putchar("%d", a);
+		putchar(a);
 		putchar('\n');
 		a++
 	}
