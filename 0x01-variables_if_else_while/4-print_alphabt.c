@@ -11,15 +11,15 @@
  */
 int main(void)
 {
-	int a = 97;
+	int a;
 
-	while (a <= 122)
+	for (a = 'a'; a <= 'z'; a++)
 	{
-		if (a == 31)
+		if (a == 'e')
 		{
 			continue;
 		}
-		else if (a == 101)
+		else if (a == 'q')
 		{
 			continue;
 		}
