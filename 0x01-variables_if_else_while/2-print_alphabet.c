@@ -16,7 +16,7 @@ int main(void)
 	while (a <= 122)
 	{
 		putchar(a);
-		putchar('\n');
+		putchar('\0');
 		a++;
 	}
 	return (0);
