@@ -13,9 +13,9 @@ int main(void)
 {
 	int a;
 
-	for (a = 'a'; a <= 'z'; a++)
+	for (a = 97; a <= 122; a++)
 	{
-		if (a != 'q' && a != 'e')
+		if (a != 101 && a != 113)
 		{
 			putchar(a);
 			a++;
