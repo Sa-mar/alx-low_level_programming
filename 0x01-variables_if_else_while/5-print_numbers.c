@@ -5,7 +5,7 @@
 /**
  * main - Entry Point
  *
- * Description: Print numbers from 0 to 10
+ * Description: Print numbers from 0 to 9
  *
  * Return: Always 0 (Success)
  */
