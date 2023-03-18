@@ -11,9 +11,9 @@
  */
 int main(void)
 {
-	char a;
+	int a;
 
-	while (a >= 'a' && a <= 'z')
+	while (a >= 97 && a <= 122)
 	{
 		putchar(a);
 		putchar('\n');
