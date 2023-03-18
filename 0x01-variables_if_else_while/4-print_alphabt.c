@@ -11,11 +11,10 @@
  */
 int main(void)
 {
-	int a;
+	int a = 97;
 
 	while (a <= 122)
 	{
-		putchar(a);
 		if (a == 31)
 		{
 			continue;
@@ -24,6 +23,7 @@ int main(void)
 		{
 			continue;
 		}
+		putchar(a);
 		a++;
 	}
 	putchar('\n');
