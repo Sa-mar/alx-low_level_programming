@@ -13,29 +13,21 @@ int main(void)
 {
 	int a;
 	int b;
-	int c;
-	int d;
 
-	for (a = 48; a <= 54; a++)
+	for (a = 0; a <= 98; a++)
 	{
-		for (b = a + 0; b <= 55; b++)
+		for (b = a + 1; b <= 99; b++)
 		{
-			for (c = b + 0; c <= 56; c++)
-			{
-				for (d = c + 1; d <= 57; d++)
-				{
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);
-					putchar(d);
+			putchar((a / 10) + '0');
+			putchar((a % 10) + '0');
+			putchar(' ');
+			putchar((b / 10) + '0');
+			putchar((b % 10) + '0');
 
-					if (a < 54 || b < 55 || c < 56 || d < 57)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+			if (a < 98 || b < 99)
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
