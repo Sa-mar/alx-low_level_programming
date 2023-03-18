@@ -13,13 +13,13 @@ int main(void)
 {
 	int a;
 
-	while (a <= 'z')
+	while (a <= 122)
 	{
-		if (a == 'q')
+		if (a == 31)
 		{
 			continue;
 		}
-		else if (a == 'e')
+		else if (a == 101)
 		{
 			continue;
 		}
