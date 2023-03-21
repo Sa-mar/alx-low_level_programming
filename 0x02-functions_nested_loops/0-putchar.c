@@ -3,13 +3,13 @@
 #include "main.h"
 
 /**
- * _putchar - the function
+ * main - the function
  *
  * Description: To print output
  *
  * Return: Always 0 (Success)
  */
-char _putchar(a)
+int main(a)
 {
 	a = "_putchar";
 	
