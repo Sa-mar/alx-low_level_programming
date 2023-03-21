@@ -8,7 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
-int _putchar(a)
+char _putchar(a)
 {
 	a = "_putchar";
 	
