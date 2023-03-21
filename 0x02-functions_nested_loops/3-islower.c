@@ -4,7 +4,7 @@
 
 /**
  * _islower - The function
- * c: character
+ * @c: character
  *
  * Description: A function that check lower case
  *
