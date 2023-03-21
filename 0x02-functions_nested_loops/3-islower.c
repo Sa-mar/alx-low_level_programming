@@ -4,6 +4,7 @@
 
 /**
  * _islower - The function
+ * c: character
  *
  * Description: A function that check lower case
  *
@@ -11,7 +12,7 @@
  */
 int _islower(int c)
 {
-	if (c >= 97 || c <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		_putchar(1);
 	}
