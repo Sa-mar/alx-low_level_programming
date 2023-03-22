@@ -4,6 +4,7 @@
 
 /**
  * int _abs - The prototype
+ * @n: The number
  *
  * Description: a function that computes the absolute value of an integer
  *
