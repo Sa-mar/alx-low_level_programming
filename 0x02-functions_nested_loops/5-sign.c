@@ -4,15 +4,15 @@
 
 /**
  * print_sign - The prototype
- * @n: the integer 
+ * @n: the integer
  *
  * Description: a function that prints the sign of a number
  *
- * Return: 1 or 0 
+ * Return: 1 or 0
  */
-int print_sign(int n)
+int print_sign(int n}
 {
-	if ( n == 0)
+	if (n == 0)
 	{
 		_putchar('0');
 		return (0);
