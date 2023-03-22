@@ -4,6 +4,7 @@
 
 /**
  * print_last_digit - The prototype
+ * @n: The number
  *
  * Description: function that prints the last digit of a number
  *
