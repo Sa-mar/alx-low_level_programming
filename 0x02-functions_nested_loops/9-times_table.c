@@ -17,14 +17,11 @@ void times_table(void)
 	{
 		for (b = 0; b <= 9; b++)
 		{
-			int mul;
-
-			mul = a * b;
-			_putchar(mul + '0');
-			if (mul >= 10)
+			_putchar((a * b) + '0');
+			if ((a * b) >= 10)
 			{
-				_putchar((mul / 10) + '0');
-				_putchar((mul % 10) + '0');
+				_putchar(((a * b) / 10) + '0');
+				_putchar((a * b) % 10) + '0');
 			}
 			if (a < 9 && b < 9)
 			{
