@@ -20,11 +20,8 @@ void times_table(void)
 			int mul;
 
 			mul = a * b;
-			if (mul < 10)
-			{
-				_putchar(mul + '0');
-			}
-			else if (mul >= 10)
+			_putchar(mul + '0');
+			if (mul >= 10)
 			{
 				_putchar((mul / 10) + '0');
 				_putchar((mul % 10) + '0');
