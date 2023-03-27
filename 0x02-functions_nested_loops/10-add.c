@@ -4,6 +4,8 @@
 
 /**
  * add - The Prototype
+ * @a: integer 1
+ * @b: integer 2
  *
  * Description: Adding two integers
  *
@@ -14,13 +16,5 @@ int add(int a, int b)
 	int sum;
 	
 	sum = a + b;
-	if (sum >= 10)
-	{
-		return ((sum / 10) + '0');
-		return ((sum % 10) + '0');
-	}
-	else
-	{
-		return (sum + '0');
-	}
+	return (sum);
 }
