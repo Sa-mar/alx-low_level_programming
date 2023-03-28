@@ -21,6 +21,7 @@ void rev_string(char *s)
 	}
 	for (st = count - 1; st >= 0; st--)
 	{
+		s[st];
 	}
 	tmpstr = s[st];
 }
