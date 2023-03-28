@@ -13,8 +13,13 @@
 void puts2(char *str)
 {
 	int st;
+	int count;
 
-	for (st = 0; str[st] != '\0'; st = st + 2)
+	for (count = 0; str[count] != '\0'; count++)
+	{
+	}
+
+	for (st = 0; st < count; st = st + 2)
 	{
 		_putchar(str[st]);
 	}
