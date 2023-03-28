@@ -3,14 +3,14 @@
 #include "main.h"
 
 /**
- * _puts2 - The function
+ * puts2 - The function
  * @str: The string pointer
  *
  * Description: A function that prints every oda char
  *
  * Return: void
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int st;
 
