@@ -15,17 +15,22 @@ void puts_half(char *str)
 	int a;
 	int count;
 	int index;
-	int *second;
 
 	for (count = 0; str[count] != '\0'; count++)
 	{
 	}
-	index = count / 2;
-	if (index < count)
+	if ((count % 2) == 0)
 	{
-		for (a = index; a <= count; a++)
-		{
-			second[a - index] = str[a];
-		}
+		a = count / 2;
 	}
+	else
+	{
+		a = (count - 1) / 2;
+	}
+
+	for (index = n; index < count; index++)
+	{
+		_putchar(str[index]);
+	}
+	_putchar('\n');
 }
