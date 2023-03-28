@@ -19,8 +19,10 @@ void rev_string(char *s)
 	for (count = 0; s[count] != '\0'; count++)
 	{
 	}
-	for (st = count - 1; st >= 0; st--)
+	for (st = count - 1; st >= count / 2; st--)
 	{
-		s[st] = tmpstr;
+		tmpstr = s[st];
+		s[st] = s[count - st - 1];
+		s[count - st - 1] = tmpstr;
 	}
 }
