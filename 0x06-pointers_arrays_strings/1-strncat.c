@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * *_strncat - The function
+ * _strncat - The function
  * @dest: dest string
  * @src: Source string
  * @n: the integer
@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 	}
 
-	for (i = 0; (i < n && src[i]); i++)
+	for (i = 0; (i < n && src[i] != '\0'); i++)
 	{
 		dest[len1 + 1] = src[i];
 	}
