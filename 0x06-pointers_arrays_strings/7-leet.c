@@ -13,15 +13,15 @@
 char *leet(char *a)
 {
 	int c, d;
-	//char s1[], s2[];
+	char s1[], s2[];
 
-	char s1[] = "aAeEoOtTlL";
-	char s2[] = "4433007711";
+	s1[] = "aAeEoOtTlL";
+	s2[] = "4433007711";
 	for (c = 0; a[c] != '\0'; c++)
 	{
 		for (d = 0; d < 10; d++)
 		{
-			if (c[a] == s1[d])
+			if (a[c] == s1[d])
 			{
 				a[c] = s2[d];
 			}
