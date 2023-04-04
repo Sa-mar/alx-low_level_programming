@@ -13,10 +13,10 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int i;
+	/*int i;*/
 	char temp;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (*s != '\0')
 	{
 		temp = accept;
 
@@ -28,6 +28,7 @@ char *_strpbrk(char *s, char *accept)
 			}
 			temp++;
 		}
+		s++;
 	}
 	return ('\0');
 }
