@@ -26,9 +26,9 @@ unsigned int _strspn(char *s, char *accept)
 	{
 	}
 
-	for (i = 0; i <= len1; i++)
+	for (i = 0; i < len1; i++)
 	{
-		for (j = 0; j <= len2; j++)
+		for (j = 0; j < len2; j++)
 		{
 			if (accept[j] == s[i])
 			{
@@ -42,7 +42,7 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		else
 		{
-			break;
+			return (lenght);
 		}
 	}
 	return (lenght);
