@@ -13,9 +13,10 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
+	int i;
 	char temp;
 
-	for (s = *s; *s != '\0'; s++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		temp = accept;
 
