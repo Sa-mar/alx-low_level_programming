@@ -9,7 +9,7 @@
  *
  * Description: A function that locate a char
  *
- * Returns: Pointer to first occurence
+ * Return: Pointer to first occurence
  */
 char *_strchr(char *s, char c)
 {
