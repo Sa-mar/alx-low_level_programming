@@ -13,12 +13,12 @@
  */
 int _pow_recursion(int x, int y)
 {
-	if (n < 1)
+	if (y < 1)
 	{
 		return (-1);
 	}
 
-	else if (n <= 1 && n >= 0)
+	else if (y <= 1 && y >= 0)
 	{
 		return (1);
 	}
