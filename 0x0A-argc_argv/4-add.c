@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 0; i < argc; i++)
 	{
-		if (isdigit(argv[i]))
+		if (argv[i] >= 48 && argv[i] <= 57)
 		{
 			sum = sum + argv[i]);
 		}
