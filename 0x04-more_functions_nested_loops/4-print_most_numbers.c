@@ -15,6 +15,8 @@ void print_most_numbers(void)
 
 	for (i = 48; i <= 57; i++)
 	{
+		_putchar(i);
+
 		if (i == 50)
 		{
 			break;
@@ -22,10 +24,6 @@ void print_most_numbers(void)
 		else if (i == 52)
 		{
 			break;
-		}
-		else
-		{
-			_putchar(i);
 		}
 	}
 	_putchar('\n');
