@@ -1,21 +1,24 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "dog.h"
+#include "main.h"
 
 /**
  * init_dog - The function
- * @d: value
+ * @d: To access strucr
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
  *
- * Description: a program that initializ struct
+ * Description: To initialize struct
  *
- * Return: void
+ * Return: Void
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d != NULL)
+	if (d == '\0')
+	{
+	}
+	else
 	{
 		d.name = name;
 		d.age = age;
